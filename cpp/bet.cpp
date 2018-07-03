@@ -41,7 +41,12 @@ float placeBet (int size, float values[], float& money) {
 
     do {
         for (int i = 0; i < size; i++) {
-            string msg = "How much R$ " + to_string(values[i]) + " coins you will bet";
+            stringstream stream;
+            float num = roundValue(values[i]);
+            stream << fixed << setprecision(2) << num;
+            string numText = stream.str();
+
+            string msg = "How much R$ " + numText + " coins you will bet";
             amount = readIntPositiveNumber(msg);
             bet += values[i] * amount;
         }
@@ -60,5 +65,9 @@ void generateBetResult (int size, char slotSymbols[], char current[]) {
         cout << " | " << current[i];
     }
     cout << " | ";
+}
+
+float roundValue (float value) {
+    return floorf(value * 100) / 100;
 }
 

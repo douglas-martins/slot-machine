@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/douglasmartins/Desktop/slot-machine
+CMAKE_SOURCE_DIR = /Users/douglas.martins/Desktop/slot-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/douglasmartins/Desktop/slot-machine/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/douglas.martins/Desktop/slot-machine/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/slot_machine.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/slot_machine.dir/flags.make
 
 CMakeFiles/slot_machine.dir/main.cpp.o: CMakeFiles/slot_machine.dir/flags.make
 CMakeFiles/slot_machine.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglasmartins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slot_machine.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/main.cpp.o -c /Users/douglasmartins/Desktop/slot-machine/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglas.martins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slot_machine.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/main.cpp.o -c /Users/douglas.martins/Desktop/slot-machine/main.cpp
 
 CMakeFiles/slot_machine.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slot_machine.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglasmartins/Desktop/slot-machine/main.cpp > CMakeFiles/slot_machine.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglas.martins/Desktop/slot-machine/main.cpp > CMakeFiles/slot_machine.dir/main.cpp.i
 
 CMakeFiles/slot_machine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slot_machine.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglasmartins/Desktop/slot-machine/main.cpp -o CMakeFiles/slot_machine.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglas.martins/Desktop/slot-machine/main.cpp -o CMakeFiles/slot_machine.dir/main.cpp.s
 
 CMakeFiles/slot_machine.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/slot_machine.dir/main.cpp.o.provides.build: CMakeFiles/slot_machine.d
 
 CMakeFiles/slot_machine.dir/cpp/bet.cpp.o: CMakeFiles/slot_machine.dir/flags.make
 CMakeFiles/slot_machine.dir/cpp/bet.cpp.o: ../cpp/bet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglasmartins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slot_machine.dir/cpp/bet.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/bet.cpp.o -c /Users/douglasmartins/Desktop/slot-machine/cpp/bet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglas.martins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slot_machine.dir/cpp/bet.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/bet.cpp.o -c /Users/douglas.martins/Desktop/slot-machine/cpp/bet.cpp
 
 CMakeFiles/slot_machine.dir/cpp/bet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slot_machine.dir/cpp/bet.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglasmartins/Desktop/slot-machine/cpp/bet.cpp > CMakeFiles/slot_machine.dir/cpp/bet.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglas.martins/Desktop/slot-machine/cpp/bet.cpp > CMakeFiles/slot_machine.dir/cpp/bet.cpp.i
 
 CMakeFiles/slot_machine.dir/cpp/bet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slot_machine.dir/cpp/bet.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglasmartins/Desktop/slot-machine/cpp/bet.cpp -o CMakeFiles/slot_machine.dir/cpp/bet.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglas.martins/Desktop/slot-machine/cpp/bet.cpp -o CMakeFiles/slot_machine.dir/cpp/bet.cpp.s
 
 CMakeFiles/slot_machine.dir/cpp/bet.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/slot_machine.dir/cpp/bet.cpp.o.provides.build: CMakeFiles/slot_machin
 
 CMakeFiles/slot_machine.dir/cpp/symb.cpp.o: CMakeFiles/slot_machine.dir/flags.make
 CMakeFiles/slot_machine.dir/cpp/symb.cpp.o: ../cpp/symb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglasmartins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/slot_machine.dir/cpp/symb.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/symb.cpp.o -c /Users/douglasmartins/Desktop/slot-machine/cpp/symb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglas.martins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/slot_machine.dir/cpp/symb.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/symb.cpp.o -c /Users/douglas.martins/Desktop/slot-machine/cpp/symb.cpp
 
 CMakeFiles/slot_machine.dir/cpp/symb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slot_machine.dir/cpp/symb.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglasmartins/Desktop/slot-machine/cpp/symb.cpp > CMakeFiles/slot_machine.dir/cpp/symb.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglas.martins/Desktop/slot-machine/cpp/symb.cpp > CMakeFiles/slot_machine.dir/cpp/symb.cpp.i
 
 CMakeFiles/slot_machine.dir/cpp/symb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slot_machine.dir/cpp/symb.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglasmartins/Desktop/slot-machine/cpp/symb.cpp -o CMakeFiles/slot_machine.dir/cpp/symb.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglas.martins/Desktop/slot-machine/cpp/symb.cpp -o CMakeFiles/slot_machine.dir/cpp/symb.cpp.s
 
 CMakeFiles/slot_machine.dir/cpp/symb.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/slot_machine.dir/cpp/symb.cpp.o.provides.build: CMakeFiles/slot_machi
 
 CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o: CMakeFiles/slot_machine.dir/flags.make
 CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o: ../cpp/inputReaders.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglasmartins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o -c /Users/douglasmartins/Desktop/slot-machine/cpp/inputReaders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglas.martins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o -c /Users/douglas.martins/Desktop/slot-machine/cpp/inputReaders.cpp
 
 CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglasmartins/Desktop/slot-machine/cpp/inputReaders.cpp > CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglas.martins/Desktop/slot-machine/cpp/inputReaders.cpp > CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.i
 
 CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglasmartins/Desktop/slot-machine/cpp/inputReaders.cpp -o CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglas.martins/Desktop/slot-machine/cpp/inputReaders.cpp -o CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.s
 
 CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o.provides.build: CMakeFiles/sl
 
 CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.o: CMakeFiles/slot_machine.dir/flags.make
 CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.o: ../cpp/generateResults.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglasmartins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.o -c /Users/douglasmartins/Desktop/slot-machine/cpp/generateResults.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglas.martins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.o -c /Users/douglas.martins/Desktop/slot-machine/cpp/generateResults.cpp
 
 CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglasmartins/Desktop/slot-machine/cpp/generateResults.cpp > CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglas.martins/Desktop/slot-machine/cpp/generateResults.cpp > CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.i
 
 CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglasmartins/Desktop/slot-machine/cpp/generateResults.cpp -o CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglas.martins/Desktop/slot-machine/cpp/generateResults.cpp -o CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.s
 
 CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/slot_machine.dir/cpp/screen.cpp.o: CMakeFiles/slot_machine.dir/flags.make
 CMakeFiles/slot_machine.dir/cpp/screen.cpp.o: ../cpp/screen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglasmartins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/slot_machine.dir/cpp/screen.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/screen.cpp.o -c /Users/douglasmartins/Desktop/slot-machine/cpp/screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/douglas.martins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/slot_machine.dir/cpp/screen.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slot_machine.dir/cpp/screen.cpp.o -c /Users/douglas.martins/Desktop/slot-machine/cpp/screen.cpp
 
 CMakeFiles/slot_machine.dir/cpp/screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slot_machine.dir/cpp/screen.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglasmartins/Desktop/slot-machine/cpp/screen.cpp > CMakeFiles/slot_machine.dir/cpp/screen.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/douglas.martins/Desktop/slot-machine/cpp/screen.cpp > CMakeFiles/slot_machine.dir/cpp/screen.cpp.i
 
 CMakeFiles/slot_machine.dir/cpp/screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slot_machine.dir/cpp/screen.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglasmartins/Desktop/slot-machine/cpp/screen.cpp -o CMakeFiles/slot_machine.dir/cpp/screen.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/douglas.martins/Desktop/slot-machine/cpp/screen.cpp -o CMakeFiles/slot_machine.dir/cpp/screen.cpp.s
 
 CMakeFiles/slot_machine.dir/cpp/screen.cpp.o.requires:
 
@@ -221,7 +221,7 @@ slot_machine: CMakeFiles/slot_machine.dir/cpp/generateResults.cpp.o
 slot_machine: CMakeFiles/slot_machine.dir/cpp/screen.cpp.o
 slot_machine: CMakeFiles/slot_machine.dir/build.make
 slot_machine: CMakeFiles/slot_machine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/douglasmartins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable slot_machine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/douglas.martins/Desktop/slot-machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable slot_machine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slot_machine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/slot_machine.dir/clean:
 .PHONY : CMakeFiles/slot_machine.dir/clean
 
 CMakeFiles/slot_machine.dir/depend:
-	cd /Users/douglasmartins/Desktop/slot-machine/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/douglasmartins/Desktop/slot-machine /Users/douglasmartins/Desktop/slot-machine /Users/douglasmartins/Desktop/slot-machine/cmake-build-debug /Users/douglasmartins/Desktop/slot-machine/cmake-build-debug /Users/douglasmartins/Desktop/slot-machine/cmake-build-debug/CMakeFiles/slot_machine.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/douglas.martins/Desktop/slot-machine/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/douglas.martins/Desktop/slot-machine /Users/douglas.martins/Desktop/slot-machine /Users/douglas.martins/Desktop/slot-machine/cmake-build-debug /Users/douglas.martins/Desktop/slot-machine/cmake-build-debug /Users/douglas.martins/Desktop/slot-machine/cmake-build-debug/CMakeFiles/slot_machine.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/slot_machine.dir/depend
 

@@ -15,6 +15,9 @@ CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o: ../cpp/inputReaders.cpp
 CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o: ../headers/defaultIncludes.h
 CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o: ../headers/inputReaders.h
 
+CMakeFiles/slot_machine.dir/cpp/screen.cpp.o: ../cpp/screen.cpp
+CMakeFiles/slot_machine.dir/cpp/screen.cpp.o: ../headers/screen.h
+
 CMakeFiles/slot_machine.dir/cpp/symb.cpp.o: ../cpp/symb.cpp
 CMakeFiles/slot_machine.dir/cpp/symb.cpp.o: ../headers/defaultIncludes.h
 CMakeFiles/slot_machine.dir/cpp/symb.cpp.o: ../headers/symb.h
