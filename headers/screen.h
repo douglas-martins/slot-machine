@@ -12,9 +12,13 @@
 #include <stdio.h>
 #endif
 #include <iostream>
+#include "../headers/defaultIncludes.h"
 using namespace std;
 
 void setPositionXYOnScreen (short x, short y);
 void drawScreenBorders (short& width, short& height);
+void drawSymbolOnPosition (string unicodeSymb, short x, short y);
+void setMsgOnPosition (string msg, short x, short y);
+void cleanScreen();
 
 #endif //SLOT_MACHINE_SCREEN_H

@@ -67,7 +67,7 @@ void generateBetResult (int size, char slotSymbols[], char current[]) {
     cout << " | ";
 }
 
-float roundValue (float value) {
+float roundValue (float& value) {
     return floorf(value * 100) / 100;
 }
 

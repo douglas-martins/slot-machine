@@ -71,6 +71,8 @@ stdio.h
 -
 iostream
 -
+../headers/defaultIncludes.h
+/Users/douglas.martins/Desktop/slot-machine/headers/defaultIncludes.h
 
 /Users/douglas.martins/Desktop/slot-machine/headers/symb.h
 ../headers/defaultIncludes.h
@@ -95,4 +97,6 @@ headers/generateResults.h
 /Users/douglas.martins/Desktop/slot-machine/headers/generateResults.h
 headers/inputReaders.h
 /Users/douglas.martins/Desktop/slot-machine/headers/inputReaders.h
+headers/screen.h
+/Users/douglas.martins/Desktop/slot-machine/headers/screen.h
 

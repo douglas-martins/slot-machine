@@ -16,6 +16,7 @@ CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o: ../headers/defaultIncludes.h
 CMakeFiles/slot_machine.dir/cpp/inputReaders.cpp.o: ../headers/inputReaders.h
 
 CMakeFiles/slot_machine.dir/cpp/screen.cpp.o: ../cpp/screen.cpp
+CMakeFiles/slot_machine.dir/cpp/screen.cpp.o: ../headers/defaultIncludes.h
 CMakeFiles/slot_machine.dir/cpp/screen.cpp.o: ../headers/screen.h
 
 CMakeFiles/slot_machine.dir/cpp/symb.cpp.o: ../cpp/symb.cpp
@@ -26,6 +27,7 @@ CMakeFiles/slot_machine.dir/main.cpp.o: ../headers/bet.h
 CMakeFiles/slot_machine.dir/main.cpp.o: ../headers/defaultIncludes.h
 CMakeFiles/slot_machine.dir/main.cpp.o: ../headers/generateResults.h
 CMakeFiles/slot_machine.dir/main.cpp.o: ../headers/inputReaders.h
+CMakeFiles/slot_machine.dir/main.cpp.o: ../headers/screen.h
 CMakeFiles/slot_machine.dir/main.cpp.o: ../headers/symb.h
 CMakeFiles/slot_machine.dir/main.cpp.o: ../main.cpp
 
