@@ -1,3 +1,19 @@
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+
 # Prerequisites
 *.d
 
@@ -31,7 +47,8 @@
 *.out
 *.app
 
-// Cmake
+# Cmake
+cmake-build-*/
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
@@ -41,3 +58,6 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+
+# OS
+.DS_Store
