@@ -2,13 +2,15 @@
 // Created by Douglas Martins on 01/07/2018.
 //
 #include "../headers/generateResults.h"
+#include "../headers/screen.h"
 
-void showPlayResult (string result, float gain) {
-    cout << endl;
+string showPlayResult (string result, float gain) {
+    //cout << endl;
     if (result == "L") { // start here tomorrow
-        cout << "Oops!! It was not this time ..." << endl;
+        return "Oops!! It was not this time ...          ";
     } else {
-        cout << "Congratulations!! You earned $" << gain << endl;
+        string numGain = setRealNumberPrecision(gain, 2);
+        return "Congratulations!! You earned $ "+numGain;
     }
 }
 

@@ -6,9 +6,11 @@
 #define SLOT_MACHINE_GENERATERESULTS_H
 #include <cstring>
 #include <cctype>
+#include <iomanip>
+#include <sstream>
 #include "../headers/defaultIncludes.h"
 
-void showPlayResult (string result, float gain);
+string showPlayResult (string result, float gain);
 void showFinalResult (char keep, float startMoney, float finalMoney);
 
 #endif //SLOT_MACHINE_GENERATERESULTS_H

@@ -8,23 +8,21 @@ int readIntPositiveNumber (string msg, short width, short height) {
     int number = 0;
 
     do {
-        setMsgOnPosition("", width, height);
-        //cout << msg << ": ";
-        cin >> number;
-    } while (number <= 0);
-    //cout << endl;
+        setMsgOnPosition(msg, width, height);
+        cin >> number; // miss check if only press enter
+    } while (number <= 0 || number == '\r');
     return number;
 }
 
-char readCharYesNo (string msg) {
+char readCharYesNo (string msg, short width, short height) {
     char result;
 
     do {
-        cout << msg << ": " << endl;
+        setMsgOnPosition(msg, width, height);
+        //cout << msg << ": " << endl;
         cin >> result;
     } while (toupper(result) != 'Y' && toupper(result) != 'N');
 
-    system("cls");
     return result;
 }
 

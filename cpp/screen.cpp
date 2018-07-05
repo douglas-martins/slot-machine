@@ -71,6 +71,8 @@ void drawDefaultMsgs (short width, short height) {
 
     setMsgOnPosition(TITLE, 2, middleScreenY-6); // title of the program (-6 for tuning)
     setMsgOnPosition(BET, 5, middleScreenY/2-2); // bet local title (middle of the middle of the screen)
+    setMsgOnPosition("CURRENT MONEY $ ", 8, middleScreenY/6); // current money text default position
+    setMsgOnPosition("LAST BET $ ", 9, middleScreenY/6); // current last bet text default position
     setMsgOnPosition(COINS, 12, middleScreenY/6); // coins of text
     setMsgOnPosition(ZERO_DOT_25_BET, 12, middleScreenY-25); // $ 0.25 bet text place
     setMsgOnPosition(ZERO_DOT_50_BET, 13, middleScreenY-25); // $ 0.50 bet text place
@@ -113,6 +115,51 @@ void drawMachineSlots(short width, short height) {
     setMsgOnPosition(u255D, 10, middleScreenY+28); // corner down right for result box
     setMsgOnPosition(u255A, 10, middleScreenY+12); // corner down left for result box
 
+    cout << endl;
+}
+
+void drawModGained (string bet, short width, short height) {
+    short middleScreenX = (width / 2);
+    short middleScreenY = (height / 2);
+
+
+    setMsgOnPosition(BET_MOD+bet, 18, middleScreenY/2+25); // show bet modifier if the better win
+    cout << endl;
+}
+
+void newPlayClearScreen(short width, short height) {
+    short middleScreenX = (width / 2);
+    short middleScreenY = (height / 2);
+    // bet
+    for (int i = 0; i < 3; i++) {
+        setMsgOnPosition(" ", (12+i), (middleScreenY/2)-44);
+    }
+
+    laterNewPlayClearScreen(width, height);
+    setMsgOnPosition("                                   ", 22, middleScreenY-44); // ask to continue the game
+
+    cout << endl;
+}
+
+void laterNewPlayClearScreen(short width, short height) {
+    short middleScreenX = (width / 2);
+    short middleScreenY = (height / 2);
+    int jumpSlots = 0;
+
+    // later
+    // slots
+    for (int i = 0; i < AMOUNT_SYMBOLS; i++) {
+        setMsgOnPosition(" ", 9, middleScreenY+(14+jumpSlots));
+        jumpSlots += 6;
+    }
+
+    setMsgOnPosition("                                   ", 18, middleScreenY-44); // bet info
+
+    // multiplied text
+    setMsgOnPosition("                                  ", 18, (middleScreenY/2)+25);
+
+    // results
+    setMsgOnPosition("                                        ", 22, middleScreenY-44);
     cout << endl;
 }
 

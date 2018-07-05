@@ -4,8 +4,6 @@
 #ifndef SLOT_MACHINE_BET_H
 #define SLOT_MACHINE_BET_H
 #include <math.h>
-#include <iomanip>
-#include <sstream>
 #include "../headers/defaultIncludes.h"
 
 char checkBetterMoney(int money);

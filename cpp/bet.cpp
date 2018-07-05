@@ -14,6 +14,7 @@ string checkBetGenerateResult (char current[]) {
     int moneySymbCount = 0, hashTagSymbCount = 0;
     char moneySymb = '$', hashTagSymb = '#';
     string returnS;
+
     for (int i = 0; i < AMOUNT_SYMBOLS; i++) {
         if (current[i] == moneySymb) moneySymbCount++;
         if (current[i] == hashTagSymb) hashTagSymbCount++;
@@ -44,26 +45,15 @@ float placeBet (int size, float values[], float money) {
 
     do {
         for (int i = 0; i < size; i++) {
-//            stringstream stream;
-//            float num = roundValue(values[i]);
-//            stream << fixed << setprecision(2) << num;
-//            string numText = stream.str();
-//
-//            string msg = "How much R$ " + numText + " coins you will bet";
             amount = readIntPositiveNumber("", (12+i), (24/2)-36);
             bet += values[i] * amount;
         }
 
         if (bet > money) setMsgOnPosition(notEnoughMoney, 20, (24/2)-10);
-        //cout << "Your bet is bigger than your current money!! Try again.\nCurrent money: " << money;
     } while (bet > money);
-    stringstream stream;
-    float num = roundValue(bet);
-    stream << fixed << setprecision(2) << num;
-    string numText = stream.str();
+    string numBet = setRealNumberPrecision(bet, 2);
 
-    setMsgOnPosition(currentBet+numText, 18, (24/2)-10);
-    //cout << "Your bet will bet R$ " << bet;
+    setMsgOnPosition(currentBet+numBet, 18, (24/2)-10);
     return bet;
 }
 
@@ -76,9 +66,7 @@ void generateBetResult (int size, char slotSymbols[], char current[]) {
         symb = string(1, current[i]);
         setMsgOnPosition(symb, 9, (24/2)+(42+jumpSlots));
         jumpSlots += 6;
-        //cout << " | " << current[i];
     }
-    //cout << " | ";
 }
 
 float roundValue (float value) {

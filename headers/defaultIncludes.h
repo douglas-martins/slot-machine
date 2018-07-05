@@ -6,6 +6,8 @@
 #define SLOT_MACHINE_INCLUDES_H
 #include <iostream>
 #include <string>
+#include <iomanip>
+#include <sstream>
 #include "../headers/screen.h"
 
 using namespace std;
@@ -22,6 +24,7 @@ string const ZERO_DOT_25_BET = "$ 0.25: ";
 string const ZERO_DOT_50_BET = "$ 0.50: ";
 string const ONE_BET = "$ 1.00: ";
 string const RESULT = "RESULT";
+string const BET_MOD = "Your bet wil be multiplied by ";
 const string
         u2550 = "\u2550", // ═
         u2551 = "\u2551", // ║
@@ -35,5 +38,8 @@ const string
         u2557 = "\u2557", //╗
         u2560 = "\u2560", // ╠
         u2563 = "\u2563"; //╣
+
+string setIntNumberPrecision (int number, int precision);
+string setRealNumberPrecision (float number, int precision);
 
 #endif //SLOT_MACHINE_INCLUDES_H

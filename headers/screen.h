@@ -21,6 +21,9 @@ void drawDefaultMsgs (short width, short height);
 void drawMachineSlots(short width, short height);
 void drawSymbolOnPosition (string unicodeSymb, short x, short y);
 void setMsgOnPosition (string msg, short x, short y);
+void drawModGained (string bet, short width, short height);
+void newPlayClearScreen(short width, short height);
+void laterNewPlayClearScreen(short width, short height);
 void cleanScreen();
 
 #endif //SLOT_MACHINE_SCREEN_H
