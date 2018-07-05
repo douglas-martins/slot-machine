@@ -51,13 +51,13 @@ int main () {
 //
 //        // generate and manipulate bet result
         generateBetResult(arraySizeSlSy, slotSymbols, currentSymbols);
-//        result = checkBetGenerateResult(currentSymbols);
-//        lastMultiplier = findMultiplier(result);
-//        lastGain = calculateBetResult(currentBet, lastMultiplier);
+        result = checkBetGenerateResult(currentSymbols);
+        lastMultiplier = findMultiplier(result);
+        lastGain = calculateBetResult(currentBet, lastMultiplier);
 //
 //        // show result and ask for play again
-//        currentMoney += lastGain;
-//        showPlayResult(result, currentBet, lastGain);
+        currentMoney += lastGain;
+//        showPlayResult(result, currentBet); // start here tomorrow
 //        cout << "Actual Money: " << currentMoney << endl;
 //        keepPlaying = readCharYesNo("\nDo you want to continue (Y/N)?");
 //        showFinalResult(keepPlaying, moneyStart, currentMoney);

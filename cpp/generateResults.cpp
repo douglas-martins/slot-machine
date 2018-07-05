@@ -5,7 +5,7 @@
 
 void showPlayResult (string result, float gain) {
     cout << endl;
-    if (result == "L") {
+    if (result == "L") { // start here tomorrow
         cout << "Oops!! It was not this time ..." << endl;
     } else {
         cout << "Congratulations!! You earned $" << gain << endl;
