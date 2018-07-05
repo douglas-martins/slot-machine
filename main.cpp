@@ -38,18 +38,19 @@ int main () {
     short width = window.ws_row;
     short height = window.ws_col;
 
-    //cout << "HEIGHT: " << height << "\nWIDTH: " << width << endl;
     drawScreenBorders(width, height);
+    drawDefaultMsgs(width, height);
+    drawMachineSlots(width, height);
 
     //sorting(arraySizeSoSy, sortingSymbols);
 
     while (toupper(keepPlaying) == 'Y') {
 //        // place the bet and subtract money
-//        currentBet = placeBet(arraySizeBeVa, betValues, currentMoney);
-//        currentMoney -= currentBet;
+        currentBet = placeBet(arraySizeBeVa, betValues, currentMoney);
+        currentMoney -= currentBet;
 //
 //        // generate and manipulate bet result
-//        generateBetResult(arraySizeSlSy, slotSymbols, currentSymbols);
+        generateBetResult(arraySizeSlSy, slotSymbols, currentSymbols);
 //        result = checkBetGenerateResult(currentSymbols);
 //        lastMultiplier = findMultiplier(result);
 //        lastGain = calculateBetResult(currentBet, lastMultiplier);

@@ -4,7 +4,7 @@
 #include "../headers/symb.h"
 #include "../headers/defaultIncludes.h"
 
-string checkSymbAmount (char symb, int& count) {
+string checkSymbAmount (char symb, int count) {
     string returnS;
     count > 2 ? returnS.append(3, symb) : returnS.append(2, symb);
     return returnS;

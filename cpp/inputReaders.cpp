@@ -2,15 +2,17 @@
 // Created by Douglas Martins on 01/07/2018.
 //
 #include "../headers/inputReaders.h"
+#include "../headers/screen.h"
 
-int readIntPositiveNumber (string msg) {
+int readIntPositiveNumber (string msg, short width, short height) {
     int number = 0;
 
     do {
-        cout << msg << ": ";
+        setMsgOnPosition("", width, height);
+        //cout << msg << ": ";
         cin >> number;
     } while (number <= 0);
-
+    //cout << endl;
     return number;
 }
 

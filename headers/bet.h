@@ -10,10 +10,10 @@
 
 char checkBetterMoney(int money);
 string checkBetGenerateResult(char current[]);
-float calculateBetResult(float& bet, int& multiplier);
-float placeBet (int size, float values[], float& money);
+float calculateBetResult(float bet, int multiplier);
+float placeBet (int size, float values[], float money);
 void generateBetResult(int size, char slotSymbols[], char current[]);
-float roundValue (float& value);
+float roundValue (float value);
 
 #endif //SLOT_MACHINE_BET_H
 

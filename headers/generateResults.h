@@ -8,7 +8,7 @@
 #include <cctype>
 #include "../headers/defaultIncludes.h"
 
-void showPlayResult (string result, float& bet, float gain);
-void showFinalResult (char& keep, float& startMoney, float& finalMoney);
+void showPlayResult (string result, float gain);
+void showFinalResult (char keep, float startMoney, float finalMoney);
 
 #endif //SLOT_MACHINE_GENERATERESULTS_H

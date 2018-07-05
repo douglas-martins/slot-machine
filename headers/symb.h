@@ -6,7 +6,7 @@
 #define SLOT_MACHINE_SYMB_H
 #include "../headers/defaultIncludes.h"
 
-string checkSymbAmount (char symb, int& count);
+string checkSymbAmount (char symb, int count);
 int findMultiplier (string type);
 
 #endif //SLOT_MACHINE_SYMB_H
