@@ -25,7 +25,7 @@ char readCharYesNo (string msg, short width, short height) {
     string::size_type stringSizeType;
 
     do {
-        setMsgOnPosition("                                             ", width, height); // clean for bug reasons
+        setMsgOnPosition("                                     ", width, height); // clean for bug reasons
         setMsgOnPosition(msg, width, height);
         getline(cin, line);
         if (line.size() == 1) result = line.at(0);

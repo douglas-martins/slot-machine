@@ -24,6 +24,7 @@ void setMsgOnPosition (string msg, short x, short y);
 void drawModGained (string bet, short width, short height);
 void newPlayClearScreen(short width, short height);
 void laterNewPlayClearScreen(short width, short height);
+void clearBetScreen (short width, short height);
 void cleanScreen();
 
 #endif //SLOT_MACHINE_SCREEN_H

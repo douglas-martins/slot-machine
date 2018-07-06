@@ -44,18 +44,25 @@ float placeBet (int size, float values[], float money) {
     string currentBet = "Your bet will bet $ ";
 
     do {
-        bet = 0;
-        for (int i = 0; i < size; i++) {
-            amount = readIntPositiveNumber("", (12+i), (24/2)-36);
-            bet += values[i] * amount;
-        }
+        do {
+            bet = 0;
+            clearBetScreen (12, (24/2)-36);
+            for (int i = 0; i < size; i++) {
+                amount = readIntPositiveNumber("", (12+i), (24/2)-36);
+                bet += values[i] * amount;
+            }
 
-        if (bet > money) setMsgOnPosition(notEnoughMoney, 18, (24/2)-10);
-    } while (bet > money);
-    string numBet = setRealNumberPrecision(bet, 2);
+            if (bet > money) setMsgOnPosition(notEnoughMoney, 18, (24/2)-10);
+        } while (bet > money);
+        string numBet = setRealNumberPrecision(bet, 2);
+        setMsgOnPosition(currentBet+numBet, 18, (24/2)-10);
+    } while (toupper(confirmBet(19, (24/2)-10)) == 'N');
 
-    setMsgOnPosition(currentBet+numBet, 18, (24/2)-10);
     return bet;
+}
+
+char confirmBet (short width, short height) {
+    return readCharYesNo("Confirm bet? (Y/N)", width, height);
 }
 
 void generateBetResult (int size, char slotSymbols[], char current[]) {
@@ -68,9 +75,5 @@ void generateBetResult (int size, char slotSymbols[], char current[]) {
         setMsgOnPosition(symb, 9, (24/2)+(42+jumpSlots));
         jumpSlots += 6;
     }
-}
-
-float roundValue (float value) {
-    return floorf(value * 100) / 100;
 }
 

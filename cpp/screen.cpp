@@ -131,7 +131,7 @@ void newPlayClearScreen(short width, short height) {
     short middleScreenX = (width / 2);
     short middleScreenY = (height / 2);
     // bet
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < AMOUNT_SYMBOLS; i++) {
         setMsgOnPosition("               ", (12+i), (middleScreenY/2)-44);
     }
 
@@ -154,6 +154,7 @@ void laterNewPlayClearScreen(short width, short height) {
     }
 
     setMsgOnPosition("                                   ", 18, middleScreenY-44); // bet info
+    setMsgOnPosition("                                   ", 19, middleScreenY-44); // confirm bet
 
     // multiplied text
     setMsgOnPosition("                                  ", 18, (middleScreenY/2)+25);
@@ -161,6 +162,15 @@ void laterNewPlayClearScreen(short width, short height) {
     // results
     setMsgOnPosition("                                        ", 21, middleScreenY-44);
     cout << endl;
+}
+
+void clearBetScreen (short width, short height) {
+    short middleScreenX = (width / 2);
+    short middleScreenY = (height / 2);
+
+    for (int i = 0; i < AMOUNT_SYMBOLS; i++) {
+        setMsgOnPosition("               ", (12+i), (middleScreenY/2)-44);
+    }
 }
 
 void cleanScreen () {
