@@ -11,6 +11,6 @@
 #include "../headers/defaultIncludes.h"
 
 string showPlayResult (string result, float gain);
-void showFinalResult (char keep, float startMoney, float finalMoney);
+void showFinalResult (char keep, float startMoney, float finalMoney, short width, short height);
 
 #endif //SLOT_MACHINE_GENERATERESULTS_H

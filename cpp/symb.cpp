@@ -21,7 +21,8 @@ int findMultiplier (string type) {
         case '#':
             resultReturn = count > 2 ? THREE_HASHTAG_SYMB : TWO_HASHTAG_SYMB;
             break;
-        default:break;
+        default:
+            return 0;
     }
     return resultReturn;
 }

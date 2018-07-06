@@ -159,7 +159,7 @@ void laterNewPlayClearScreen(short width, short height) {
     setMsgOnPosition("                                  ", 18, (middleScreenY/2)+25);
 
     // results
-    setMsgOnPosition("                                        ", 22, middleScreenY-44);
+    setMsgOnPosition("                                        ", 21, middleScreenY-44);
     cout << endl;
 }
 
