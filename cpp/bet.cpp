@@ -46,7 +46,7 @@ float placeBet (int size, float values[], float money) {
     do {
         do {
             bet = 0;
-            clearBetScreen (12, (24/2)-36);
+            clearBetScreen (12, (24/2));
             for (int i = 0; i < size; i++) {
                 amount = readIntPositiveNumber("", (12+i), (24/2)-36);
                 bet += values[i] * amount;

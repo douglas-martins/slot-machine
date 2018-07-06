@@ -169,8 +169,11 @@ void clearBetScreen (short width, short height) {
     short middleScreenY = (height / 2);
 
     for (int i = 0; i < AMOUNT_SYMBOLS; i++) {
-        setMsgOnPosition("               ", (12+i), (middleScreenY/2)-44);
+        setMsgOnPosition("               ", (width+i), height-36);
     }
+
+    setMsgOnPosition("                                     ", 18, height-10); // bet info
+    setMsgOnPosition("                                     ", 19, height-10); // confirm bet
 }
 
 void cleanScreen () {
