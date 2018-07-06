@@ -172,7 +172,7 @@ void clearBetScreen (short width, short height) {
         setMsgOnPosition("               ", (width+i), height-36);
     }
 
-    setMsgOnPosition("                                     ", 18, height-10); // bet info
+    // setMsgOnPosition("                                     ", 18, height-10); // bet info
     setMsgOnPosition("                                     ", 19, height-10); // confirm bet
 }
 

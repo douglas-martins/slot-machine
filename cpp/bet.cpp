@@ -45,6 +45,7 @@ float placeBet (int size, float values[], float money) {
 
     do {
         do {
+            if (bet < money) setMsgOnPosition("                                     ", 18, (24/2)-10); // bet info
             bet = 0;
             clearBetScreen (12, (24/2));
             for (int i = 0; i < size; i++) {
