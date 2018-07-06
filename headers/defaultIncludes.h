@@ -8,6 +8,7 @@
 #include <string>
 #include <iomanip>
 #include <sstream>
+#include <string>
 #include "../headers/screen.h"
 
 using namespace std;
