@@ -132,7 +132,7 @@ void newPlayClearScreen(short width, short height) {
     short middleScreenY = (height / 2);
     // bet
     for (int i = 0; i < 3; i++) {
-        setMsgOnPosition(" ", (12+i), (middleScreenY/2)-44);
+        setMsgOnPosition("               ", (12+i), (middleScreenY/2)-44);
     }
 
     laterNewPlayClearScreen(width, height);

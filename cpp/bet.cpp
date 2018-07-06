@@ -44,12 +44,13 @@ float placeBet (int size, float values[], float money) {
     string currentBet = "Your bet will bet $ ";
 
     do {
+        bet = 0;
         for (int i = 0; i < size; i++) {
             amount = readIntPositiveNumber("", (12+i), (24/2)-36);
             bet += values[i] * amount;
         }
 
-        if (bet > money) setMsgOnPosition(notEnoughMoney, 20, (24/2)-10);
+        if (bet > money) setMsgOnPosition(notEnoughMoney, 18, (24/2)-10);
     } while (bet > money);
     string numBet = setRealNumberPrecision(bet, 2);
 

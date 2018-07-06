@@ -21,11 +21,13 @@ void showFinalResult (char keep, float startMoney, float finalMoney, short width
     string results = "You started the game with $"+setRealNumberPrecision(startMoney, 2)+".";
     string results2 = "And finished with $"+setRealNumberPrecision(finalMoney, 2);
     //string absMoneyDif = setRealNumberPrecision(abs((finalMoney-startMoney)), 2); // aqui porra
-    string gains = (finalMoney - startMoney > 0 ? "Congratulations!! You earned $" : "Oops!! You loss $")+moneyDif+".";
+    string resultCongra = (finalMoney - startMoney > 0 ? "Congratulations!!" : "Oops!!");
+    string gains = (finalMoney - startMoney > 0 ? "You earned $" : "You loss $")+moneyDif+".";
 
     setMsgOnPosition(results, (width/2), (height/2)+25);
     setMsgOnPosition(results2, (width/2)+1, (height/2)+30);
-    setMsgOnPosition(gains, (width/2)+3, (height/2)+30);
+    setMsgOnPosition(resultCongra, (width/2)+3, (height/2)+33);
+    setMsgOnPosition(gains, (width/2)+4, (height/2)+33);
     cout << endl;
     cout << endl;
     cout << endl;
